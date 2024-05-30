@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx ts-node "
+    "dev": "npx ts-node ",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,11 @@
   "devDependencies": {
     "nodemon": "^2.0.15",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
-  }
+    "typescript": "^4.6.3",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "husky": "^9.0.11"
+  },
+  "lint-staged": {}
 }
